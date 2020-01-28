@@ -102,7 +102,7 @@ footer{
 }
 
 .two{
-    width: 10vw;
+    width: 30vw;
     display: inline-block;
 }
 
@@ -149,4 +149,13 @@ h4{
     color: black;
     /* margin-top: 10px; */
 
+}
+
+.breite{
+
+    width: 40vw;
+    margin-left: 30vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    /* display: none; */
 }

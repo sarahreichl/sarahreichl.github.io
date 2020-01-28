@@ -56,6 +56,11 @@
             Während des Schulbesuches muss jede Schülerin und jeder Schüler zwei Ferialpraktika in Länge von je vier
             Wochen vor dem dritten und vor dem fünften Jahrgang absolvieren.</p>
 
+        <div style="width: 20vw;" onclick="tausch()">
+            <img class="breite" style="display: inline-block;" id="bild" src="img/htl.jpg">
+            <img class="breite" style="display: none;" id="bild2" src="img/medientechnik.jpg">
+        </div id="bild">
+
 
         <div class="three">
             <a class="rahmenlink" href="#top">Back to the Top</a>
@@ -94,9 +99,10 @@
 
         <h4>John: </h4>
         <p>
-        John the Ripper, kurz John oder JtR, ist eine von Alexander Peslyak geschriebene und weit verbreitete freie
-        Software zum Testen von Authentifizierungseinrichtungen und Passwörtern. Das Programm unterliegt der GNU General
-        Public License.
+            John the Ripper, kurz John oder JtR, ist eine von Alexander Peslyak geschriebene und weit verbreitete freie
+            Software zum Testen von Authentifizierungseinrichtungen und Passwörtern. Das Programm unterliegt der GNU
+            General
+            Public License.
         </p>
         <a class="link3" href="https://github.com/magnumripper/JohnTheRipper">Github-repo</a>
         <br>
@@ -124,5 +130,23 @@
 
     </footer>
 </body>
+<script>
+
+    function tausch() {
+
+        if (document.getElementById("bild").style.display == "none") {
+          
+            document.getElementById("bild").style.display = "inline-block";
+            document.getElementById("bild2").style.display = "none";
+        }
+        if(document.getElementById("bild2").style.display == "none") {
+         
+            document.getElementById("bild").style.display = "none";
+            document.getElementById("bild2").style.display = "inline-block";
+        }
+    }
+
+
+</script>
 
 </html>
