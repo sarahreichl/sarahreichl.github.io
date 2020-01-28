@@ -1,0 +1,152 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0px;    
+}
+
+h1{
+    font-size: 5vh;
+    text-align: center;
+}
+
+.other{
+    margin-top: 4vh;
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    grid-gap: 5px;
+}
+
+.one{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(175, 238, 238, 0.3);
+    
+    margin-top: 10vh;
+    padding: 10px;
+}
+
+.auswahl{
+    height: 30vh;
+}
+
+h2{
+    font-size: 5vh;
+    text-align: center;
+}
+
+h3{
+    font-size: 4vh;
+    text-align: center;
+    
+}
+
+p{
+    margin: 1%;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50;
+    height: 6vh;
+    position: sticky;
+    top: 0px;
+    background-color: rgb(175, 238, 238, 0.5);
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    text-decoration: none;
+    font-size: 4vh;
+    color: black;
+}
+
+footer{
+    margin-top: 2vh;
+    background-color: rgb(175, 238, 238, 0.5);
+    display: flex;
+    justify-content: center;    
+}
+
+.link2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+.rahmenlink{
+    display: flex;
+    width: 20vw;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+.two{
+    width: 10vw;
+    display: inline-block;
+}
+
+.three{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.fotos > img{
+    
+    /* display: flex;
+    justify-content: center; */
+    width: 30vw;
+    margin-right: 3px;
+
+}
+
+.fotos{
+
+    width: 100vw;
+    margin-left: 5vw;
+    
+    /* display: flex;
+    justify-content: center; */
+}
+
+#interessen2{
+
+    padding: 5px;
+
+}
+
+h4{
+
+    font-size: 3vh;
+    margin-bottom: 5px;
+
+}
+
+.link3{
+
+    text-decoration: none;
+    color: black;
+    /* margin-top: 10px; */
+
+}
